@@ -70,7 +70,7 @@ Modern productivity systems force users into a single bottleneck: manual plannin
 
 ## 🏗️ System Architecture
 
-```mermaid
+mermaid
 graph TD
     User([User / Operator]) -->|Interacts| UI[Next.js 16 + React Dark Dashboard]
     
@@ -113,13 +113,13 @@ graph TD
 
         SwitchCore --> Channel
     end
-```
+
 
 ---
 
 ## 🔄 Agent Collaboration Workflow
 
-```mermaid
+mermaid
 sequenceDiagram
     autonumber
     actor User as Operator
@@ -152,7 +152,7 @@ sequenceDiagram
         API-->>UI: Return saved tasks
         UI-->>User: Updated task list & dashboard metrics
     end
-```
+
 
 ---
 
